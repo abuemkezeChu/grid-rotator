@@ -24,16 +24,15 @@ const rotateAntiClockWise = (grid) => {
 
 // update the view
 const updateView = (grid) => {
-  btn1.innerHTML = grid[0]
-  btn2.innerHTML = grid[1]
-  btn3.innerHTML = grid[2]
-  btn6.innerHTML = grid[3]
-  btn9.innerHTML = grid[4]
-  btn8.innerHTML = grid[5]
-  btn7.innerHTML = grid[6]
-  btn4.innerHTML = grid[7]
+  btn1.textContent = grid[0]
+  btn2.textContent = grid[1]
+  btn3.textContent = grid[2]
+  btn6.textContent = grid[3]
+  btn9.textContent = grid[4]
+  btn8.textContent = grid[5]
+  btn7.textContent = grid[6]
+  btn4.textContent = grid[7]
 }
-
 
 btn5.addEventListener('click', () => {
   rotateClockWise(grid)

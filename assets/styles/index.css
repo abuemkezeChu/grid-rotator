@@ -4,7 +4,8 @@
   box-sizing: border-box;
 }
 
-.title {
+.title,
+.description {
   text-align: center;
   margin-bottom: 5rem;
 }
